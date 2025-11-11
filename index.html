@@ -19,7 +19,7 @@
       margin-bottom: 30px;
     }
 
-    /* Caja de categoría */
+    /* 🧭 Caja de categoría */
     .category-box {
       background-color: #1e1e1e;
       border-radius: 10px;
@@ -27,52 +27,10 @@
       margin: 40px auto 10px auto;
       max-width: 1200px;
       box-shadow: 0 0 10px rgba(0, 191, 255, 0.2);
-      transition: box-shadow 0.3s, transform 0.2s;
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 10px; /* espacio entre icono y texto */
-    }
-
-    /* Franja diagonal amarilla */
-.addon-badge {
-    position: absolute;
-    top: 10px; /* Separado del borde superior */
-    right: 50px; /* Separado del borde derecho */
-    width: 60px; /* Tamaño del círculo más grande */
-    height: 60px; /* Tamaño del círculo más grande */
-    background: #ffcc00; /* Color de fondo amarillo */
-    color: #000; /* Color del texto */
-    font-family: 'Poppins', sans-serif; /* Fuente 'Poppins' */
-    font-weight: bold; /* Letra en negrita */
-    font-size: 0.9em; /* Tamaño de la letra un poco más pequeño */
-    display: flex;
-    justify-content: center; /* Centra el texto horizontalmente */
-    align-items: center; /* Centra el texto verticalmente */
-    border-radius: 50%; /* Hace que el contenedor sea un círculo */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra más suave y sutil */
-    pointer-events: none;
-    text-align: center;
-    white-space: nowrap;
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Efecto suave */
-}
-
-/* Efecto hover: cambia el color y aumenta el tamaño */
-.addon-badge:hover {
-    background: #e6b800; /* Cambio de color al pasar el ratón */
-    transform: scale(1.1); /* Hace que el círculo crezca un poco */
-}
-
-
-
-    /* Aseguramos que la tarjeta tenga position relative */
-    .apk-item {
-      background-color: #1e1e1e;
-      padding: 15px;
-      border-radius: 10px;
-      transition: transform 0.2s, background-color 0.3s;
-      position: relative; /* Asegura que el addon se posicione correctamente */
-      overflow: hidden; /* Asegura que el badge no se desborde visualmente */
+      gap: 10px;
     }
 
     .category-box span.icon {
@@ -85,7 +43,7 @@
       font-size: 1.4em;
     }
 
-    /* Colores por categoría */
+    /* 🎨 Colores por categoría */
     .deportes { border: 2px solid #00bfff; box-shadow: 0 0 10px rgba(0,191,255,0.3); color: #00bfff; }
     .iptv { border: 2px solid #00ff88; box-shadow: 0 0 10px rgba(0,255,136,0.3); color: #00ff88; }
     .cine { border: 2px solid #ff5555; box-shadow: 0 0 10px rgba(255,85,85,0.3); color: #ff5555; }
@@ -98,6 +56,7 @@
       transform: translateX(5px);
     }
 
+    /* 📱 Lista de tarjetas */
     .apk-list {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -106,18 +65,20 @@
       margin: 20px auto 40px auto;
     }
 
+    /* 💠 Tarjeta genérica */
     .apk-item {
       background-color: #1e1e1e;
       padding: 15px;
       border-radius: 10px;
       transition: transform 0.2s, background-color 0.3s;
-      position: relative; /* Asegura que el addon se posicione correctamente */
-      overflow: hidden; /* Asegura que el badge no se desborde visualmente */
+      text-align: center;
+      position: relative;
+      overflow: hidden;
     }
 
     .apk-item:hover {
       transform: scale(1.05);
-      background-color: #2b2b2b;
+      background-color: #223322; /* ✅ cambio leve a verde al pasar el ratón */
     }
 
     .apk-item img {
@@ -139,6 +100,40 @@
       text-decoration: underline;
     }
 
+    /* 🟨 Franja diagonal base */
+    .addon-badge {
+      position: absolute;
+      top: 15px;
+      right: -20px;
+      width: 100px;
+      text-align: center;
+      font-weight: bold;
+      transform: rotate(45deg);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      font-size: 0.8em;
+      pointer-events: none;
+      z-index: 5;
+      padding: 3px 0;
+      border-radius: 2px;
+    }
+
+    /* 🟨 Tipos de franjas */
+    .apk-item.addon .addon-badge {
+      background: #ffcc00;
+      color: #000;
+    }
+
+    .apk-item.pro .addon-badge {
+      background: #ff4444;
+      color: #fff;
+    }
+
+    .apk-item.free .addon-badge {
+      background: #00cc66;
+      color: #fff;
+    }
+
+    /* 🧾 Caja de información */
     .info-box {
       max-width: 1000px;
       margin: 50px auto 0;
@@ -160,6 +155,7 @@
       color: #cccccc;
     }
 
+    /* 📱 Responsividad */
     @media (max-width: 1200px) {
       .apk-list {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -195,7 +191,8 @@
   <!-- 📺 IPTV -->
   <div class="category-box iptv"><span class="icon">📺</span><h2>IPTV</h2></div>
   <div class="apk-list">
-    <div class="apk-item">
+    <div class="apk-item pro">
+      <div class="addon-badge">PRO</div>
       <img src="IMG/ACESTREAM.png" alt="Ace Stream">
       <a href="APK/Ace Stream McKlaus_Appss Dark MOD Arm7.apk">🔗 Ace Stream McKlaus <br>Dark MOD Arm7 v3.2.14.2 </a><span style="color:orange;">✅ Downloader Code 8216095</span>
     </div>
@@ -203,15 +200,18 @@
       <img src="IMG/ACESERVE.png" alt="aceserve">
       <a href="APK/org.free.aceserve-1.4.1-arm.apk">🔗 AceServe <br>v1.4.1</a>ℹ️ Alternativa Acestream ➕<span style="color: orange;"> VLC</span> 
     </div>
-    <div class="apk-item">
+    <div class="apk-item pro">
+      <div class="addon-badge">PRO</div>
       <img src="IMG/M3U_IPTV.png" alt="M3U IPTV">
-      <a href="APK/M3U IPTV v3.0.9 (Premium).apk">🖥️ M3U IPTV <br>v3.0.9 (Premium) </a>🌍URL🌍<span style="color: #00ff00;"> bit.ly/Yoni123</span>
+      <a href="APK/M3U IPTV v3.0.9 (Premium).apk">🖥️ M3U IPTV <br>v3.0.9 (Premium)</a>🌍URL🌍<span style="color: #00ff00;"> bit.ly/Yoni123</span>
     </div>
-    <div class="apk-item">
-      <img src="IMG/OTTNAVIGATOR.png" alt="OTT Navigador">
+    <div class="apk-item pro">
+      <div class="addon-badge">PRO</div>
+      <img src="IMG/OTTNAVIGATOR.png" alt="OTT Navigator">
       <a href="APK/OTT Navigador TV_1.6.apk">🖥️ OTT Navigador TV <br>v1.6 PRO</a>
     </div>
-    <div class="apk-item">
+    <div class="apk-item pro">
+      <div class="addon-badge">PRO</div>
       <img src="IMG/SPARKLE.png" alt="sparkle">
       <a href="APK/Sparkle TV Plus v2.2.0 Mod.apk">🖥️ Sparkle TV Plus<br>v2.2.0 MOD</a>
     </div>
@@ -237,12 +237,12 @@
       <img src="IMG/KODI.png" alt="KODI">
       <a href="https://mirrors.kodi.tv/releases/android/arm/kodi-21.2-Omega-armeabi-v7a.apk?https=1">💠 KODI <br>v21.2 Omega</a>
     </div>
-    <div class="apk-item">
+    <div class="apk-item addon">
       <div class="addon-badge">ADDON</div>
       <img src="IMG/KODI - A3P.png" alt="KODI Addon A3Player">
       <a href="APK/plugin.video.atresplayerchopo">🔗 Repositorio <br>A3Player CHOPO</a>
     </div>
-    <div class="apk-item">
+    <div class="apk-item addon">
       <div class="addon-badge">ADDON</div>
       <img src="IMG/KODI - MITELE.png" alt="KODI Addon Mitele">
       <a href="APK/plugin.video.mitelechopo">🔗 Repositorio <br>Mitele CHOPO</a>
@@ -252,24 +252,28 @@
   <!-- 🧰 Herramientas -->
   <div class="category-box herramientas"><span class="icon">🧰</span><h2>Herramientas</h2></div>
   <div class="apk-list">
-    <div class="apk-item">
-      <img src="IMG/DOWNLOADER.png" alt="Downloader">
+   <div class="apk-item">
+      <img src="IMG/DOWNLOADER.png" alt="DOWNLOADER">
       <a href="APK/Downloader.apk">Downloader</a>
     </div>
-    <div class="apk-item">
+	
+    <div class="apk-item free">
+      <div class="addon-badge">FREE</div>
       <img src="IMG/VLC.png" alt="VLC">
       <a href="APK/videolan.vlc_3.1.1.apk">▶️ VLC <br>v3.1.1</a>
     </div>
   </div>
 
-  <!-- 📂 Exploradores de Archivos -->
+  <!-- 📂 Exploradores -->
   <div class="category-box exploradores"><span class="icon">📂</span><h2>Exploradores de Archivos</h2></div>
   <div class="apk-list">
-    <div class="apk-item">
+    <div class="apk-item pro">
+      <div class="addon-badge">PRO</div>
       <img src="IMG/ES File Explorer.png" alt="ES File Explorer">
       <a href="APK/ES File Explorer File Manager_4.4.2.2.1.apk">📂 ES File Explorer <br>v4.4.2.2.1</a>
     </div>
-    <div class="apk-item">
+    <div class="apk-item free">
+      <div class="addon-badge">FREE</div>
       <img src="IMG/X-PLORE.png" alt="X-PLORE">
       <a href="APK/X-plore v4.30.14(Free).apk">📂 X-plore File Manager <br>v4.30.14</a>
     </div>
@@ -282,7 +286,8 @@
       <img src="IMG/WOLFLAUNCHER.png" alt="Wolf Launcher">
       <a href="APK/Wolf Launcher_0.1.9-Wolf_.apk">🐺 Wolf Launcher <br>v0.1.9</a>
     </div>
-    <div class="apk-item">
+    <div class="apk-item pro">
+      <div class="addon-badge">PRO</div>
       <img src="IMG/ATVLAUNCHER.png" alt="ATV Launcher">
       <a href="APK/ATV Launcher Pro v0.1.5 Patched McKlaus.apk">🔷 ATV Launcher PRO<br>v0.1.5 Patch McKlaus</a>
     </div>
@@ -292,16 +297,15 @@
   <div class="info-box">
     <h2>ℹ️ Información de interés</h2>
     <p>
-      📆 Última actualización: 10 de Noviembre de 2025<br>
+      📆 Última actualización: 11 de Noviembre de 2025<br>
       🔽 Se recomienda instalar Downloader desde la tienda de aplicaciones del dispositivo y añadir url a Favoritos.<br>
       • Si Acestream da error de WebView, instalar Chrome.<br>
-      • Sparkle hay que habilitar nombres en la Guia EPG tras instalar.<br>
+      • Sparkle hay que habilitar nombres en la Guía EPG tras instalar.<br>
       • DixMax crear usuario random para entrar.<br>
-      • RBTV77 suele dar error dias de partido importantes.<br>
+      • RBTV77 suele dar error días de partido importantes.<br>
       • Si algún enlace no funciona, contacta con el administrador.<br>
       • Recomendación TEST M3U: ✅ https://www.iptvregion.eu.org/ ✅ http://www.tvappapk.com/
     </p>
   </div>
-
 </body>
 </html>
