@@ -1,0 +1,381 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="La 1 HD" tvg-name="LA 1" tvg-logo="" group-title="ESPAÑA TDT" ,LA 1
+https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main_dvr.m3u8
+#EXTINF:-1 tvg-id="La 2" tvg-name="LA 2" tvg-logo="" group-title="ESPAÑA TDT" ,LA 2
+https://rtvelivestream.akamaized.net/rtvesec/la2/la2_main_dvr.m3u8
+#EXTINF:-1 tvg-id="Antena 3 HD" tvg-name="ANTENA 3" tvg-logo="" group-title="ESPAÑA TDT" ,ANTENA 3
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321106.ts
+#EXTINF:-1 tvg-id="Cuatro HD" tvg-name="CUATRO" tvg-logo="" group-title="ESPAÑA TDT" ,CUATRO
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321197.ts
+#EXTINF:-1 tvg-id="Telecinco HD" tvg-name="TELECINCO" tvg-logo="" group-title="ESPAÑA TDT" ,TELECINCO
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321430.ts
+#EXTINF:-1 tvg-id="La Sexta HD" tvg-name="LA SEXTA" tvg-logo="" group-title="ESPAÑA TDT" ,LA SEXTA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321289.ts
+#EXTINF:-1 tvg-id="TVG" tvg-name="TVG" tvg-logo="" group-title="ESPAÑA TDT" ,TVG
+https://crtvg-europa.flumotion.cloud/playlist.m3u8
+#EXTINF:-1 tvg-id="TVG2" tvg-name="TVG2" tvg-logo="" group-title="ESPAÑA TDT" ,TVG 2
+https://crtvg-tvg2.flumotion.cloud/playlist.m3u8
+#EXTINF:-1 tvg-id="TVG - Eventos" tvg-name="TVG - Eventos" tvg-logo="https://i.ibb.co/VvhXCdp/TVG-Eventos.png" group-title="ESPAÑA TDT" ,TVG Eventos
+https://crtvg-events1.flumotion.cloud/playlist.m3u8
+#EXTINF:-1 tvg-id="Movistar Plus+ HD" tvg-name="Movistar Plus+" tvg-logo="" group-title="SERIES" ,MOVISTAR PLUS+
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/646234.ts
+#EXTINF:-1 tvg-id="M+ Vamos HD" tvg-name="M+ Vamos" tvg-logo="" group-title="DEPORTES" ,M+ VAMOS
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321072.ts
+#EXTINF:-1 tvg-id="M+ Estrenos HD" tvg-name="M+ Estrenos" tvg-logo="" group-title="CINE" ,M+ ESTRENOS
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/561133.ts
+#EXTINF:-1 tvg-id="M+ Hits HD" tvg-name="M+ Hits" tvg-logo="" group-title="CINE" ,M+ HITS
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321348.ts
+#EXTINF:-1 tvg-id="M+ Originales HD" tvg-name="M+ Originales" tvg-logo="" group-title="SERIES" ,M+ ORIGINALES
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321069.ts
+#EXTINF:-1 tvg-id="M+ BBC Earth" tvg-name="M+ BBC Earth" tvg-logo="" group-title="CINE" ,M+ BBC EARTH
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/891908.ts
+#EXTINF:-1 tvg-id="M+ Documentales HD" tvg-name="M+ DOCUMENTALES" tvg-logo="" group-title="DOCUMENTALES" ,M+ DOCUMENTALES
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/552955.ts
+#EXTINF:-1 tvg-id="M+ Anime" tvg-name="M+ Anime" tvg-logo="" group-title="CINE" ,M+ ANIME
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/891905.ts
+#EXTINF:-1 tvg-id="La Resistencia 24H" tvg-name="La Resistencia 24H" tvg-logo="" group-title="SERIES" ,M+ LA RESISTENCIA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/722359.ts
+#EXTINF:-1 tvg-id="M+ Clásicos HD" tvg-name="M+ Clásicos" tvg-logo="" group-title="CINE" ,M+ CLASICOS
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321315.ts
+#EXTINF:-1 tvg-id="M+ Acción HD" tvg-name="M+ Acción" tvg-logo="" group-title="CINE" ,M+ ACCION
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321306.ts
+#EXTINF:-1 tvg-id="M+ Comedia HD" tvg-name="M+ Comedia" tvg-logo="" group-title="CINE" ,M+ COMEDIA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321318.ts
+#EXTINF:-1 tvg-id="M+ Drama HD" tvg-name="M+ Drama" tvg-logo="" group-title="CINE" ,M+ DRAMA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321331.ts
+#EXTINF:-1 tvg-id="M+ Indie HD" tvg-name="M+ Indie" tvg-logo="" group-title="CINE" ,M+ INDIE
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/552958.ts
+#EXTINF:-1 tvg-id="M+ Cine Español" tvg-name="M+ Cine Español" tvg-logo="" group-title="CINE" ,M+ CINE ESPAÑOL
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/620944.ts
+#EXTINF:-1 tvg-id="Max Avances" tvg-name="Max Avances" tvg-logo="" group-title="CINE" ,MAX AVANCES
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/928974.ts
+#EXTINF:-1 tvg-id="SkyShowtime" tvg-name="SkyShowtime" tvg-logo="" group-title="CINE" ,SKYSHOWTIME
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/761985.ts
+#EXTINF:-1 tvg-id="TCM HD" tvg-name="TCM" tvg-logo="" group-title="CINE" ,TCM
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321426.ts
+
+#EXTINF:-1 tvg-id="BBC Drama" tvg-name="BBC DRAMA HD" tvg-logo="" group-title="SERIES",BBC DRAMA
+http://185.233.16.53:80/play/myrokxyz6050/22907dmc2/1029198.ts
+#EXTINF:-1 tvg-id="BBC Food" tvg-name="BBC FOOD HD" tvg-logo="" group-title="SERIES",BBC FOOD
+http://185.233.16.53:80/play/myrokxyz6050/22907dmc2/1029201.ts
+#EXTINF:-1 tvg-id="BBC Top Gear" tvg-name="BBC TOP GEAR" tvg-logo="" group-title="SERIES",BBC TOP GEAR
+http://185.233.16.53:80/play/myrokxyz6050/22907dmc2/1029204.ts
+#EXTINF:-1 tvg-id="BBC history" tvg-name="BBC HISTORY" tvg-logo="" group-title="SERIES",BBC HISTORY HD
+http://185.233.16.53:80/play/myrokxyz6050/22907dmc2/1039777.ts
+
+#EXTINF:-1 tvg-id="Canal Hollywood HD" tvg-name="Canal Hollywood" tvg-logo="" group-title="CINE" ,HOLLYWOOD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321266.ts
+#EXTINF:-1 tvg-id="XTRM" tvg-name="XTRM" tvg-logo="" group-title="CINE" ,XTRM
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321477.ts
+#EXTINF:-1 tvg-id="SUNDANCE TV" tvg-name="SUNDANCE TV" tvg-logo="" group-title="CINE" ,SUNDANCE TV
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321419.ts
+#EXTINF:-1 tvg-id="DARK" tvg-name="DARK" tvg-logo="" group-title="CINE" ,DARK
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/636331.ts
+#EXTINF:-1 tvg-id="Somos" tvg-name="somos" tvg-logo="" group-title="CINE" ,SOMOS
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321413.ts
+#EXTINF:-1 tvg-id="Paramount Network" tvg-name="Paramount Network" tvg-logo="" group-title="CINE" ,PARAMOUNT NETWORK
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/868009.ts
+#EXTINF:-1 tvg-id="Be Mad" tvg-name="BE MAD" tvg-logo="" group-title="ESPAÑA TDT" ,BE MAD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321126.ts
+#EXTINF:-1 tvg-id="STAR Channel HD" tvg-name="STAR Channel HD" tvg-logo="" group-title="SERIES" ,STAR CHANNEL
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/825219.ts
+#EXTINF:-1 tvg-id="AXN HD" tvg-name="AXN" tvg-logo="" group-title="SERIES" ,AXN
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321119.ts
+#EXTINF:-1 tvg-id="Warner TV HD" tvg-name="Warner TV" tvg-logo="" group-title="SERIES" ,WARNER TV
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/459778.ts
+#EXTINF:-1 tvg-id="SELEKT" tvg-name="SELEKT" tvg-logo="" group-title="SERIES" ,SELEKT
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/909143.ts
+#EXTINF:-1 tvg-id="Comedy Central HD" tvg-name="Comedy Central" tvg-logo="" group-title="SERIES" ,COMEDY CENTRAL
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321184.ts
+#EXTINF:-1 tvg-id="Calle 13 HD" tvg-name="CALLE 13" tvg-logo="" group-title="SERIES" ,CALLE 13
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321138.ts
+#EXTINF:-1 tvg-id="COSMO HD" tvg-name="COSMO" tvg-logo="" group-title="SERIES" ,COSMO
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321188.ts
+#EXTINF:-1 tvg-id="SyFy HD" tvg-name="SYFY" tvg-logo="" group-title="SERIES" ,SYFY
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321423.ts
+#EXTINF:-1 tvg-id="AMC HD" tvg-name="AMC" tvg-logo="" group-title="SERIES" ,AMC
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321103.ts
+#EXTINF:-1 tvg-id="AXN Movies HD" tvg-name="AXN Movies" tvg-logo="" group-title="CINE" ,AXN MOVIES
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538659.ts
+#EXTINF:-1 tvg-id="TRECE" tvg-name="TRECE" tvg-logo="" group-title="ESPAÑA TDT" ,TRECE
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/862477.ts
+#EXTINF:-1 tvg-id="Energy" tvg-name="Energy" tvg-logo="" group-title="ESPAÑA TDT" ,ENERGY
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321238.ts
+#EXTINF:-1 tvg-id="Factoría de Ficción" tvg-name="FDF" tvg-logo="" group-title="ESPAÑA TDT" ,FDF
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321249.ts
+#EXTINF:-1 tvg-id="Neox" tvg-name="NEOX" tvg-logo="" group-title="ESPAÑA TDT" ,NEOX
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321375.ts
+#EXTINF:-1 tvg-id="Atreseries" tvg-name="Atreseries" tvg-logo="" group-title="SERIES" , A3 SERIES
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321087.ts
+
+
+
+
+
+#EXTINF:-1 tvg-id="M+ LaLiga TV HD" tvg-name="M+ LaLiga TV FHD" tvg-logo="" group-title="LA LIGA" ,M+ LALIGA FHD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/165385.ts
+#EXTINF:-1 tvg-id="M+ LaLiga TV HD" tvg-name="M+ LaLiga TV HD" tvg-logo="" group-title="LA LIGA" ,M+ LALIGA HD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/165392.ts
+#EXTINF:-1 tvg-id="M+ LaLiga TV HD" tvg-name="M+ LaLiga TV" tvg-logo="" group-title="LA LIGA" ,M+ LALIGA SD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/165393.ts
+#EXTINF:-1 tvg-id="M+ LaLiga TV HD" tvg-name="M+ LaLiga TV H265" tvg-logo="" group-title="LA LIGA" ,M+ LALIGA H265
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/262413.ts
+
+
+#EXTINF:-1 tvg-id="DAZN LaLiga HD" tvg-name="DAZN LaLiga" tvg-logo="" group-title="DAZN" ,DAZN LALIGA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/320781.ts
+#EXTINF:-1 tvg-id="DAZN LaLiga HD" tvg-name="DAZN LaLiga FHD" tvg-logo="" group-title="DAZN" ,DAZN LALIGA FHD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/320782.ts
+
+
+#EXTINF:-1 tvg-id="LaLiga TV Hypermotion HD" tvg-name="LaLiga TV Hypermotion" tvg-logo="" group-title="LA LIGA HYPERMOTION" ,LALIGA TV HYPERMOTION
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/320786.ts
+#EXTINF:-1 tvg-id="LaLiga TV Hypermotion 2" tvg-name="LaLiga TV Hypermotion 2" tvg-logo="" group-title="LA LIGA HYPERMOTION" ,LALIGA TV HYPERMOTION 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/320790.ts
+#EXTINF:-1 tvg-id="DAZN LaLiga 2 HD" tvg-name="DAZN LaLiga 2" tvg-logo="" group-title="DAZN" ,DAZN LALIGA 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/320779.ts
+
+
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones HD" tvg-name="M+ Liga de Campeones HD" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ L CAMPEONES HD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/165358.ts
+#EXTINF:-1 tvg-id="M+ Liga de Campeones HD" tvg-name="M+ Liga de Campeones FHD" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ L CAMPEONES FHD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/246282.ts
+#EXTINF:-1 tvg-id="M+ Liga de Campeones HD" tvg-name="M+ Liga de Campeones" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ L CAMPEONES
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/165359.ts
+
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 2 HD" tvg-name="M+ Liga de Campeones 2" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ L CAMPEONES 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/282469.ts
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 3 HD" tvg-name="M+ Liga de Campeones 3" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ L CAMPEONES 3
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/282470.ts
+
+
+#EXTINF:-1 tvg-id="M+ Deportes HD" tvg-name="M+ Deportes FHD" tvg-logo="" group-title="DEPORTES" ,M+ DEPORTES FHD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538695.ts
+#EXTINF:-1 tvg-id="M+ Deportes HD" tvg-name="M+ Deportes HD" tvg-logo="" group-title="DEPORTES" ,M+ DEPORTES HD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538696.ts
+#EXTINF:-1 tvg-id="M+ Golf HD" tvg-name="M+ Golf" tvg-logo="" group-title="DEPORTES" ,M+ GOLF
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/268095.ts
+
+#EXTINF:-1 tvg-id="DAZN F1 HD" tvg-name="DAZN F1 FHD" tvg-logo="" group-title="DAZN" ,DAZN F1 FHD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/165418.ts
+#EXTINF:-1 tvg-id="DAZN F1 HD" tvg-name="DAZN F1 HD" tvg-logo="" group-title="DAZN" ,DAZN F1 HD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/165419.ts
+#EXTINF:-1 tvg-id="DAZN F1 HD" tvg-name="DAZN F1" tvg-logo="" group-title="DAZN" ,DAZN F1
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/318564.ts
+
+
+#EXTINF:-1 tvg-id="DAZN 1 HD" tvg-name="DAZN 1 FHD" tvg-logo="" group-title="DAZN" ,DAZN 1 FHD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/373766.ts
+#EXTINF:-1 tvg-id="DAZN 1 HD" tvg-name="DAZN 1 HD" tvg-logo="" group-title="DAZN" ,DAZN 1 HD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/228385.ts
+
+#EXTINF:-1 tvg-id="DAZN 2 HD" tvg-name="DAZN 2 FHD" tvg-logo="" group-title="DAZN" ,DAZN 2 FHD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/228389.ts
+#EXTINF:-1 tvg-id="DAZN 2 HD" tvg-name="DAZN 2 HD" tvg-logo="" group-title="DAZN" ,DAZN 2 HD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/228388.ts
+
+#EXTINF:-1 tvg-id="Eurosport 1 HD" tvg-name="EUROSPORT 1 FHD" tvg-logo="" group-title="DEPORTES" ,EUROSPORT 1 FHD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/290348.ts
+#EXTINF:-1 tvg-id="Eurosport 1 HD" tvg-name="EUROSPORT 1 HD" tvg-logo="" group-title="DEPORTES" ,EUROSPORT 1 HD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/290349.ts
+#EXTINF:-1 tvg-id="Eurosport 1 HD" tvg-name="EUROSPORT 1" tvg-logo="" group-title="DEPORTES" ,EUROSPORT 1
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/290350.ts
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-name="EUROSPORT 2 FHD" tvg-logo="" group-title="DEPORTES" ,EUROSPORT 2 FHD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/290351.ts
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-name="EUROSPORT 2 HD" tvg-logo="" group-title="DEPORTES" ,EUROSPORT 2 HD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/290352.ts
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-name="EUROSPORT 2" tvg-logo="" group-title="DEPORTES" ,EUROSPORT 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/290353.ts
+#EXTINF:-1 tvg-id="GOL PLAY" tvg-name="GOL PLAY" tvg-logo="" group-title="DEPORTES" ,GOL PLAY
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538758.ts
+#EXTINF:-1 tvg-id="Teledeporte" tvg-name="Teledeporte" tvg-logo="" group-title="DEPORTES" ,TELEDEPORTE
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538770.ts
+#EXTINF:-1 tvg-id="Real Madrid TV" tvg-name="Real Madrid TV" tvg-logo="" group-title="DEPORTES" ,REAL MADRID TV
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538768.ts
+#EXTINF:-1 tvg-id="Caza y Pesca HD" tvg-name="Caza y Pesca" tvg-logo="" group-title="DOCUMENTALES" ,CAZA Y PESCA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321169.ts
+#EXTINF:-1 tvg-id="Iberalia TV" tvg-name="Iberalia TV" tvg-logo="" group-title="DOCUMENTALES" ,IBERALIA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/394391.ts
+#EXTINF:-1 tvg-id="Iberalia pesca" tvg-name="IBERALIA 100% PESCA" tvg-logo="" group-title="DOCUMENTALES",IBERALIA 100% PESCA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/336331.ts
+#EXTINF:-1 tvg-id="Iberalia caza" tvg-name="IBERALIA 100% CAZA" tvg-logo="" group-title="DOCUMENTALES",IBERALIA 100% CAZA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/336328.ts
+#EXTINF:-1 tvg-id="UBEAT" tvg-name="UBEAT" tvg-logo="" group-title="DOCUMENTALES" ,UBEAT
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/648496.ts
+#EXTINF:-1 tvg-id="National Geographic HD" tvg-name="National Geographic" tvg-logo="" group-title="DOCUMENTALES" ,NATIONAL GEOGRAPHIC
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321372.ts
+#EXTINF:-1 tvg-id="Nat Geo Wild HD" tvg-name="Nat Geo Wild" tvg-logo="" group-title="DOCUMENTALES" ,NATIONAL GEOGRAPHIC WILD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/687033.ts
+#EXTINF:-1 tvg-id="Historia" tvg-name="historia" tvg-logo="" group-title="DOCUMENTALES" ,HISTORIA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/339761.ts
+#EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" tvg-logo="" group-title="DOCUMENTALES" ,DISCOVERY
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/384244.ts
+#EXTINF:-1 tvg-id="Odisea" tvg-name="Odisea" tvg-logo="" group-title="DOCUMENTALES" ,ODISEA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/542581.ts
+#EXTINF:-1 tvg-id="AMC Break" tvg-name="AMC Break" tvg-logo="" group-title="SERIES" ,AMC BREAK 
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/336284.ts
+#EXTINF:-1 tvg-id="DMAX" tvg-name="DMAX" tvg-logo="" group-title="ESPAÑA TDT" ,DMAX
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321226.ts
+#EXTINF:-1 tvg-id="AMC Crime" tvg-name="AMC Crime" tvg-logo="" group-title="SERIES" ,AMC CRIME
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/386495.ts
+#EXTINF:-1 tvg-id="BuenViaje" tvg-name="BuenViaje" tvg-logo="" group-title="DOCUMENTALES" ,BUEN VIAJE
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/573239.ts
+#EXTINF:-1 tvg-id="Canal Cocina" tvg-name="Canal Cocina" tvg-logo="" group-title="DOCUMENTALES" ,CANAL COCINA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321147.ts
+#EXTINF:-1 tvg-id="Decasa" tvg-name="Decasa" tvg-logo="" group-title="DOCUMENTALES" ,DECASA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321153.ts
+#EXTINF:-1 tvg-id="DBike" tvg-name="DBike" tvg-logo="" group-title="DOCUMENTALES",DBIKE
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/466753.ts
+#EXTINF:-1 tvg-id="DKISS" tvg-name="DKISS" tvg-logo="" group-title="ESPAÑA TDT" ,DKISS
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321224.ts
+#EXTINF:-1 tvg-id="Divinity" tvg-name="DIVINITY" tvg-logo="" group-title="ESPAÑA TDT" ,DIVINITY
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/687032.ts
+#EXTINF:-1 tvg-id="Nova" tvg-name="NOVA" tvg-logo="" group-title="ESPAÑA TDT" ,NOVA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321383.ts
+#EXTINF:-1 tvg-id="Mega" tvg-name="MEGA" tvg-logo="" group-title="ESPAÑA TDT" ,MEGA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321300.ts
+
+#EXTINF:-1 tvg-id="Enfamilia" tvg-name="Enfamilia" tvg-logo="" group-title="INFANTIL" ,ENFAMILIA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/399757.ts
+#EXTINF:-1 tvg-id="Baby TV" tvg-name="Baby TV" tvg-logo="" group-title="INFANTIL" ,BABY TV
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321122.ts
+#EXTINF:-1 tvg-id="Disney Junior" tvg-name="Disney Junior" tvg-logo="" group-title="INFANTIL" ,DISNEY JR
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321217.ts
+#EXTINF:-1 tvg-id="Nick JR" tvg-name="Nick JR" tvg-logo="" group-title="INFANTIL" ,NICK JR
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321377.ts
+#EXTINF:-1 tvg-id="Nickelodeon HD" tvg-name="nickelodeon" tvg-logo="" group-title="INFANTIL" ,NICKELODEON
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321381.ts
+#EXTINF:-1 tvg-id="Dreamworks" tvg-name="Dreamworks" tvg-logo="" group-title="INFANTIL" ,DREAMWORKS
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321229.ts
+#EXTINF:-1 tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="" group-title="INFANTIL" ,DISNEY CHANNEL
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321215.ts
+#EXTINF:-1 tvg-id="Boing" tvg-name="BOING" tvg-logo="" group-title="INFANTIL" ,BOING
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/825108.ts
+#EXTINF:-1 tvg-id="Clan" tvg-name="Clan" tvg-logo="" group-title="INFANTIL" ,CLAN TVE
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/859781.ts
+#EXTINF:-1 tvg-id="MTV España" tvg-name="MTV España" tvg-logo="" group-title="SERIES" ,MTV ESPAÑA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/894020.ts
+
+
+#EXTINF:-1 tvg-id="MTV 90s" tvg-name="MTV 90s" tvg-logo="" group-title="MUSICA" ,MTV 90s
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/845061.ts
+#EXTINF:-1 tvg-id="MTV 00s" tvg-name="MTV 00s" tvg-logo="" group-title="MUSICA" ,MTV 00s
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/464391.ts
+#EXTINF:-1 tvg-id="MTV HITS" tvg-name="MTV HITS" tvg-logo="" group-title="MUSICA" ,MTV HITS
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321360.ts
+
+
+
+#EXTINF:-1 tvg-id="Mezzo Live HD" tvg-name="Mezzo Live HD" tvg-logo="" group-title="MUSICA" ,MEZZO LIVE
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/870250.ts
+#EXTINF:-1 tvg-id="Classica" tvg-name="Classica" tvg-logo="" group-title="MUSICA" ,CLASSICA
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321181.ts
+#EXTINF:-1 tvg-id="24 Horas" tvg-name="24 Horas" tvg-logo="" group-title="ESPAÑA TDT" ,24 HORAS
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/339730.ts
+
+
+
+
+#EXTINF:-1 tvg-id="M+ LALIGA TV 2 HD" tvg-name="M+ LALIGA TV 2" tvg-logo="" group-title="LA LIGA" ,M+ LALIGA 2 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/165398.ts
+#EXTINF:-1 tvg-id="M+ LALIGA TV 3 HD" tvg-name="M+ LALIGA TV 3" tvg-logo="" group-title="LA LIGA" ,M+ LALIGA 3 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/165400.ts
+#EXTINF:-1 tvg-id="M+ LALIGA TV 4" tvg-name="M+ LALIGA TV 4" tvg-logo="" group-title="LA LIGA" ,M+ LALIGA 4 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/237729.ts
+
+#EXTINF:-1 tvg-id="LaLiga TV Hypermotion HD" tvg-name="LaLiga TV Hypermotion FHD" tvg-logo="" group-title="LA LIGA HYPERMOTION" ,LALIGA TV HYPERMOTION FHD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/571903.ts
+#EXTINF:-1 tvg-id="LaLiga TV Hypermotion HD" tvg-name="LaLiga TV Hypermotion HD" tvg-logo="" group-title="LA LIGA HYPERMOTION" ,LALIGA TV HYPERMOTION HD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/571905.ts
+#EXTINF:-1 tvg-id="LaLiga TV Hypermotion 2" tvg-name="LaLiga TV Hypermotion 2" tvg-logo="" group-title="LA LIGA HYPERMOTION" ,LALIGA TV HYPERMOTION 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/571906.ts
+#EXTINF:-1 tvg-id="LaLiga TV Hypermotion 3" tvg-name="LaLiga TV Hypermotion 3" tvg-logo="" group-title="LA LIGA HYPERMOTION" ,LALIGA TV HYPERMOTION 3
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/571907.ts
+
+#EXTINF:-1 tvg-id="M+ Liga de Campeones HD" tvg-name="M+ LIGA DE CAMPEONES" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ LIGA DE CAMPEONES 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/262412.ts
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 2 HD" tvg-name="M+ Liga de Campeones 2" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ LIGA DE CAMPEONES 2 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/165365.ts
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 3 HD" tvg-name="M+ LIGA DE CAMPEONES 3" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ LIGA DE CAMPEONES 3 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/282471.ts
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 4" tvg-name="M+ LIGA DE CAMPEONES 4" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ LIGA DE CAMPEONES 4 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/282473.ts
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 5" tvg-name="M+ LIGA DE CAMPEONES 5" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ LIGA DE CAMPEONES 5 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/282461.ts
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 6" tvg-name="M+ LIGA DE CAMPEONES 6" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ LIGA DE CAMPEONES 6 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/282463.ts
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 7" tvg-name="M+ LIGA DE CAMPEONES 7" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ LIGA DE CAMPEONES 7 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/282465.ts
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 8" tvg-name="M+ LIGA DE CAMPEONES 8" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ LIGA DE CAMPEONES 8 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/282466.ts
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 9" tvg-name="M+ LIGA DE CAMPEONES 9" tvg-logo="" group-title="LIGA CAMPEONES" ,M+ LIGA DE CAMPEONES 9 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/631350.ts
+
+#EXTINF:-1 tvg-id="Movistar Plus+ 2 HD" tvg-name="Movistar Plus+ 2" tvg-logo="" group-title="SERIES" ,MOVISTAR PLUS+ 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/654580.ts
+
+#EXTINF:-1 tvg-id="Tennis Channel" tvg-name="Tennis Channel tvg-logo="" group-title="DEPORTES" ,TENNIS CHANNEL
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538753.ts
+
+
+#EXTINF:-1 tvg-id="M+ Deportes HD" tvg-name="M+ DEPORTES" tvg-logo="" group-title="DEPORTES" ,M+ DEPORTES 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538698.ts
+#EXTINF:-1 tvg-id="M+ Deportes 2" tvg-name="M+ DEPORTES 2" tvg-logo="" group-title="DEPORTES" ,M+ DEPORTES 2 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538680.ts
+#EXTINF:-1 tvg-id="M+ Deportes 3" tvg-name="M+ DEPORTES 3" tvg-logo="" group-title="DEPORTES" ,M+ DEPORTES 3 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538682.ts
+#EXTINF:-1 tvg-id="M+ Deportes 4" tvg-name="M+ DEPORTES 4" tvg-logo="" group-title="DEPORTES" ,M+ DEPORTES 4 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538686.ts
+#EXTINF:-1 tvg-id="M+ Deportes 5" tvg-name="M+ DEPORTES 5" tvg-logo="" group-title="DEPORTES" ,M+ DEPORTES 5 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538689.ts
+#EXTINF:-1 tvg-id="M+ Deportes 6" tvg-name="M+ DEPORTES 6" tvg-logo="" group-title="DEPORTES" ,M+ DEPORTES 6 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538692.ts
+#EXTINF:-1 tvg-id="M+ Deportes 7" tvg-name="M+ DEPORTES 7" tvg-logo="" group-title="DEPORTES" ,M+ DEPORTES 7 🔴
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538694.ts
+#EXTINF:-1 tvg-id="DAZN 3" tvg-name="DAZN 3" tvg-logo="" group-title="DAZN" ,DAZN 3
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/228394.ts
+#EXTINF:-1 tvg-id="DAZN 4" tvg-name="DAZN 4" tvg-logo="" group-title="DAZN" ,DAZN 4
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/228398.ts
+
+#EXTINF:-1 tvg-id="My Padel TV" tvg-name="My Padel TV" tvg-logo="https://i.ibb.co/1TXfCQ8/My-Padel-TV.png" group-title="OTROS" ,My Padel TV
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/877089.ts
+#EXTINF:-1 tvg-id="Cazavisión" tvg-name="Cazavisión" tvg-logo="" group-title="OTROS" ,Cazavisión
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/598197.ts
+#EXTINF:-1 tvg-id="El Garage TV" tvg-name="El Garage TV" tvg-logo="" group-title="OTROS" ,El Garage TV
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/829985.ts
+#EXTINF:-1 tvg-id="LaLiga TV BAR HD" tvg-name="LaLiga TV BAR HD" tvg-logo="" group-title="OTROS" ,LaLiga TV BAR HD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/165407.ts
+#EXTINF:-1 tvg-id="LaLiga TV BAR HD" tvg-name="LaLiga TV BAR FHD" tvg-logo="" group-title="OTROS" ,LaLiga TV BAR FHD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/268042.ts
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 1 Grupo 1" tvg-logo="" group-title="FEF TV" ,FEF TV 1 Grupo 1
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595391.ts
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 2 Grupo 1" tvg-logo="" group-title="FEF TV" ,FEF TV 2 Grupo 1
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595392.ts
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 3 Grupo 1" tvg-logo="" group-title="FEF TV" ,FEF TV 3 Grupo 1
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595393.ts
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 4 Grupo 1" tvg-logo="" group-title="FEF TV" ,FEF TV 4 Grupo 1
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595394.ts
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 5 Grupo 1" tvg-logo="" group-title="FEF TV" ,FEF TV 5 Grupo 1
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595395.ts
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 6 Grupo 1" tvg-logo="" group-title="FEF TV" ,FEF TV 6 Grupo 1
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595396.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 1 Grupo 2" tvg-logo="" group-title="FEF TV" ,FEF TV 1 Grupo 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595401.ts                         
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 2 Grupo 2" tvg-logo="" group-title="FEF TV" ,FEF TV 2 Grupo 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595402.ts                         
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 3 Grupo 2" tvg-logo="" group-title="FEF TV" ,FEF TV 3 Grupo 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595403.ts                         
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 4 Grupo 2" tvg-logo="" group-title="FEF TV" ,FEF TV 4 Grupo 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595404.ts                         
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 5 Grupo 2" tvg-logo="" group-title="FEF TV" ,FEF TV 5 Grupo 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595405.ts                         
+#EXTINF:-1 tvg-id="" tvg-name="FEF TV 6 Grupo 2" tvg-logo="" group-title="FEF TV" ,FEF TV 6 Grupo 2
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/595406.ts
