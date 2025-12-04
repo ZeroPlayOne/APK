@@ -27,11 +27,11 @@ http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/561133.ts
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321348.ts
 #EXTINF:-1 tvg-id="M+ Originales HD" tvg-name="M+ Originales" tvg-logo="" group-title="SERIES" ,M+ ORIGINALES
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321069.ts
-#EXTINF:-1 tvg-id="M+ BBC Earth" tvg-name="M+ BBC Earth" tvg-logo="" group-title="CINE" ,M+ BBC EARTH
+#EXTINF:-1 tvg-id="M+ ESTRELLAS DEL CINE" tvg-name="M+ ESTRELLAS DEL CINE" tvg-logo="" group-title="CINE" ,M+ ESTRELLAS DEL CINE
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/891908.ts
 #EXTINF:-1 tvg-id="M+ Documentales HD" tvg-name="M+ DOCUMENTALES" tvg-logo="" group-title="DOCUMENTALES" ,M+ DOCUMENTALES
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/552955.ts
-#EXTINF:-1 tvg-id="M+ Anime" tvg-name="M+ Anime" tvg-logo="" group-title="CINE" ,M+ ANIME
+#EXTINF:-1 tvg-id="M+ EN JUEGO" tvg-name="M+ EN JUEGO" tvg-logo="" group-title="CINE" ,M+ EN JUEGO
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/891905.ts
 #EXTINF:-1 tvg-id="La Resistencia 24H" tvg-name="La Resistencia 24H" tvg-logo="" group-title="SERIES" ,M+ LA RESISTENCIA
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/722359.ts
@@ -47,21 +47,35 @@ http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321331.ts
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/552958.ts
 #EXTINF:-1 tvg-id="M+ Cine Español" tvg-name="M+ Cine Español" tvg-logo="" group-title="CINE" ,M+ CINE ESPAÑOL
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/620944.ts
-#EXTINF:-1 tvg-id="Max Avances" tvg-name="Max Avances" tvg-logo="" group-title="CINE" ,MAX AVANCES
+#EXTINF:-1 tvg-id="HBO Max Avances" tvg-name="HBO Max Avances" tvg-logo="" group-title="CINE" ,HBO MAX AVANCES
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/928974.ts
 #EXTINF:-1 tvg-id="SkyShowtime" tvg-name="SkyShowtime" tvg-logo="" group-title="CINE" ,SKYSHOWTIME
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/761985.ts
 #EXTINF:-1 tvg-id="TCM HD" tvg-name="TCM" tvg-logo="" group-title="CINE" ,TCM
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321426.ts
 
-#EXTINF:-1 tvg-id="BBC Drama" tvg-name="BBC DRAMA HD" tvg-logo="" group-title="SERIES",BBC DRAMA
+#EXTINF:-1 tvg-id="BBC SERIES" tvg-name="BBC SERIES" tvg-logo="" group-title="SERIES",BBC SERIES
 http://185.233.16.53:80/play/myrokxyz6050/22907dmc2/1029198.ts
-#EXTINF:-1 tvg-id="BBC Food" tvg-name="BBC FOOD HD" tvg-logo="" group-title="SERIES",BBC FOOD
-http://185.233.16.53:80/play/myrokxyz6050/22907dmc2/1029201.ts
 #EXTINF:-1 tvg-id="BBC Top Gear" tvg-name="BBC TOP GEAR" tvg-logo="" group-title="SERIES",BBC TOP GEAR
 http://185.233.16.53:80/play/myrokxyz6050/22907dmc2/1029204.ts
-#EXTINF:-1 tvg-id="BBC history" tvg-name="BBC HISTORY" tvg-logo="" group-title="SERIES",BBC HISTORY HD
-http://185.233.16.53:80/play/myrokxyz6050/22907dmc2/1039777.ts
+#EXTINF:-1 tvg-id="Paramount Network" tvg-name="Paramount Network" tvg-logo="" group-title="CINE" ,PARAMOUNT NETWORK
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/868009.ts
+#EXTINF:-1 tvg-id="Be Mad" tvg-name="BE MAD" tvg-logo="" group-title="ESPAÑA TDT" ,BE MAD
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321126.ts
+#EXTINF:-1 tvg-id="STAR Channel HD" tvg-name="STAR Channel HD" tvg-logo="" group-title="SERIES" ,STAR CHANNEL
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/825219.ts
+#EXTINF:-1 tvg-id="AXN HD" tvg-name="AXN" tvg-logo="" group-title="SERIES" ,AXN
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321119.ts
+#EXTINF:-1 tvg-id="Warner TV HD" tvg-name="Warner TV" tvg-logo="" group-title="SERIES" ,WARNER TV
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/459778.ts
+#EXTINF:-1 tvg-id="Comedy Central HD" tvg-name="Comedy Central" tvg-logo="" group-title="SERIES" ,COMEDY CENTRAL
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321184.ts
+#EXTINF:-1 tvg-id="Calle 13 HD" tvg-name="CALLE 13" tvg-logo="" group-title="SERIES" ,CALLE 13
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321138.ts
+#EXTINF:-1 tvg-id="COSMO HD" tvg-name="COSMO" tvg-logo="" group-title="SERIES" ,COSMO
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321188.ts
+#EXTINF:-1 tvg-id="SyFy HD" tvg-name="SYFY" tvg-logo="" group-title="SERIES" ,SYFY
+http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321423.ts
 
 #EXTINF:-1 tvg-id="Canal Hollywood HD" tvg-name="Canal Hollywood" tvg-logo="" group-title="CINE" ,HOLLYWOOD
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321266.ts
@@ -73,30 +87,15 @@ http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321419.ts
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/636331.ts
 #EXTINF:-1 tvg-id="Somos" tvg-name="somos" tvg-logo="" group-title="CINE" ,SOMOS
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321413.ts
-#EXTINF:-1 tvg-id="Paramount Network" tvg-name="Paramount Network" tvg-logo="" group-title="CINE" ,PARAMOUNT NETWORK
-http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/868009.ts
-#EXTINF:-1 tvg-id="Be Mad" tvg-name="BE MAD" tvg-logo="" group-title="ESPAÑA TDT" ,BE MAD
-http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321126.ts
-#EXTINF:-1 tvg-id="STAR Channel HD" tvg-name="STAR Channel HD" tvg-logo="" group-title="SERIES" ,STAR CHANNEL
-http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/825219.ts
-#EXTINF:-1 tvg-id="AXN HD" tvg-name="AXN" tvg-logo="" group-title="SERIES" ,AXN
-http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321119.ts
-#EXTINF:-1 tvg-id="Warner TV HD" tvg-name="Warner TV" tvg-logo="" group-title="SERIES" ,WARNER TV
-http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/459778.ts
+
+
 #EXTINF:-1 tvg-id="SELEKT" tvg-name="SELEKT" tvg-logo="" group-title="SERIES" ,SELEKT
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/909143.ts
-#EXTINF:-1 tvg-id="Comedy Central HD" tvg-name="Comedy Central" tvg-logo="" group-title="SERIES" ,COMEDY CENTRAL
-http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321184.ts
-#EXTINF:-1 tvg-id="Calle 13 HD" tvg-name="CALLE 13" tvg-logo="" group-title="SERIES" ,CALLE 13
-http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321138.ts
-#EXTINF:-1 tvg-id="COSMO HD" tvg-name="COSMO" tvg-logo="" group-title="SERIES" ,COSMO
-http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321188.ts
-#EXTINF:-1 tvg-id="SyFy HD" tvg-name="SYFY" tvg-logo="" group-title="SERIES" ,SYFY
-http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321423.ts
+
+
 #EXTINF:-1 tvg-id="AMC HD" tvg-name="AMC" tvg-logo="" group-title="SERIES" ,AMC
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/321103.ts
-#EXTINF:-1 tvg-id="AXN Movies HD" tvg-name="AXN Movies" tvg-logo="" group-title="CINE" ,AXN MOVIES
-http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/538659.ts
+
 #EXTINF:-1 tvg-id="TRECE" tvg-name="TRECE" tvg-logo="" group-title="ESPAÑA TDT" ,TRECE
 http://185.233.16.53:80/live/myrokxyz6050/22907dmc2/862477.ts
 #EXTINF:-1 tvg-id="Energy" tvg-name="Energy" tvg-logo="" group-title="ESPAÑA TDT" ,ENERGY
