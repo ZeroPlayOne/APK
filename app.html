@@ -4,84 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Suite de Software Libre</title>
-    <style>
-        :root {
-            --primary: #2563eb;
-            --bg: #f1f5f9;
-            --card-bg: #ffffff;
-            --text: #1e293b;
-        }
-        body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 40px 20px; }
-        .container { max-width: 1100px; margin: 0 auto; }
-        h1 { text-align: center; margin-bottom: 10px; font-size: 2.5rem; color: #0f172a; }
-        p.subtitle { text-align: center; margin-bottom: 40px; color: #64748b; }
-        
-        .category-section { margin-bottom: 50px; }
-        .category-title { 
-            font-size: 1.4rem; 
-            border-left: 5px solid var(--primary); 
-            padding-left: 15px; 
-            margin-bottom: 25px;
-            color: #334155;
-            font-weight: 700;
-        }
+<style>
+:root {
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+    --bg: #f1f5f9;
+    --card-bg: #ffffff;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: rgba(15, 23, 42, 0.08);
+    --shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+    --shadow-hover: 0 18px 40px rgba(15, 23, 42, 0.15);
+}
 
-        .grid { 
-            display: grid; 
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
-            gap: 25px; 
-        }
+* {
+    box-sizing: border-box;
+}
 
-        .card { 
-            background: var(--card-bg); 
-            border-radius: 16px; 
-            padding: 30px 20px; 
-            text-align: center; 
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
-            border: 1px solid rgba(0,0,0,0.05);
-        }
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background: radial-gradient(circle at top, #ffffff, var(--bg));
+    color: var(--text);
+    margin: 0;
+    padding: 40px 20px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
 
-        .card:hover { 
-            transform: translateY(-10px); 
-            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
-            border-color: var(--primary);
-        }
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
 
-        .logo-box {
-            width: 80px;
-            height: 80px;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.8rem;
+    letter-spacing: -0.5px;
+    color: var(--text);
+}
 
-        .logo-box img {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: contain;
-        }
+p.subtitle {
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--muted);
+    font-size: 1.05rem;
+}
 
-        .card h3 { margin: 0 0 10px 0; font-size: 1.25rem; color: #1e293b; }
-        .card p { font-size: 0.9rem; color: #64748b; margin-bottom: 20px; line-height: 1.4; flex-grow: 1; }
+.category-section {
+    margin-bottom: 60px;
+}
 
-        .btn { 
-            background: var(--primary); 
-            color: white; 
-            text-decoration: none; 
-            padding: 10px 20px; 
-            border-radius: 8px; 
-            font-weight: 600; 
-            font-size: 0.85rem;
-            width: 80%;
-            transition: all 0.2s;
-        }
-        .btn:hover { background: #1d4ed8; transform: scale(1.05); }
-    </style>
+.category-title {
+    font-size: 1.25rem;
+    border-left: 5px solid var(--primary);
+    padding-left: 14px;
+    margin-bottom: 25px;
+    color: #334155;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: var(--card-bg);
+    border-radius: 18px;
+    padding: 28px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    will-change: transform;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: var(--shadow-hover);
+    border-color: rgba(37, 99, 235, 0.35);
+}
+
+.logo-box {
+    width: 78px;
+    height: 78px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.08));
+}
+
+.card h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.2rem;
+    color: var(--text);
+}
+
+.card p {
+    font-size: 0.92rem;
+    color: var(--muted);
+    margin-bottom: 18px;
+    line-height: 1.45;
+    flex-grow: 1;
+}
+
+.btn {
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: white;
+    text-decoration: none;
+
+    padding: 10px 18px;
+    border-radius: 10px;
+
+    font-weight: 600;
+    font-size: 0.85rem;
+
+    width: 85%;
+    display: inline-block;
+
+    transition: transform 0.2s ease, filter 0.2s ease;
+    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+</style>
 </head>
 <body>
 
@@ -146,7 +214,7 @@
 
 
 <div class="card">
-    <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bitwarden_logo.svg/330px-Bitwarden_logo.svg.png" alt="ShareX"></div>
+    <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/ShareX_Logo.png" alt="ShareX"></div>
     <h3>ShareX</h3>
     <p>Capturas, grabación y automatización avanzada.</p>
     <a href="https://getsharex.com" class="btn" target="_blank">Descargar</a>
@@ -172,7 +240,7 @@
                 <a href="https://signal.org" class="btn" target="_blank">Descargar</a>
             </div>
 			<div class="card">
-    <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Bitwarden_logo.svg" alt="Bitwarden"></div>
+    <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bitwarden_logo.svg/330px-Bitwarden_logo.svg.png" alt="Bitwarden"></div>
     <h3>Bitwarden</h3>
     <p>Gestor de contraseñas seguro, cifrado y sincronizado.</p>
     <a href="https://bitwarden.com" class="btn" target="_blank">Descargar</a>
@@ -317,7 +385,7 @@
 	
 	    <!-- HERRAMIENTAS WEB (CLOUD) -->
     <div class="category-section">
-        <h2 class="category-title">Herramientas en la Nube (Sin Instalación)</h2>
+        <h2 class="category-title">🌐 Herramientas web (gratuitas, pero no libres)</h2>
         <div class="grid">
             <div class="card">
                 <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Photopea_logo.svg" alt="Photopea"></div>
