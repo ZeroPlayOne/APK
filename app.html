@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Suite de Software Libre</title>
+    <script src="https://unpkg.com"></script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f1f5f9;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+        }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 40px 20px; }
+        .container { max-width: 1100px; margin: 0 auto; }
+        h1 { text-align: center; margin-bottom: 10px; font-size: 2.5rem; color: #0f172a; }
+        p.subtitle { text-align: center; margin-bottom: 40px; color: #64748b; }
+        
+        .category-section { margin-bottom: 50px; }
+        .category-title { 
+            font-size: 1.4rem; 
+            border-left: 5px solid var(--primary); 
+            padding-left: 15px; 
+            margin-bottom: 25px;
+            color: #334155;
+            font-weight: 700;
+        }
+
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
+            gap: 25px; 
+        }
+
+        .card { 
+            background: var(--card-bg); 
+            border-radius: 16px; 
+            padding: 30px 20px; 
+            text-align: center; 
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .card:hover { 
+            transform: translateY(-10px); 
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
+            border-color: var(--primary);
+        }
+
+        .logo-box {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-box img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .card h3 { margin: 0 0 10px 0; font-size: 1.25rem; color: #1e293b; }
+        .card p { font-size: 0.9rem; color: #64748b; margin-bottom: 20px; line-height: 1.4; flex-grow: 1; }
+
+        .btn { 
+            background: var(--primary); 
+            color: white; 
+            text-decoration: none; 
+            padding: 10px 20px; 
+            border-radius: 8px; 
+            font-weight: 600; 
+            font-size: 0.85rem;
+            width: 80%;
+            transition: all 0.2s;
+        }
+        .btn:hover { background: #1d4ed8; transform: scale(1.05); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Software Libre de Élite</h1>
+    <p class="subtitle">Herramientas completas, sin publicidad y 100% gratuitas</p>
+
+    <!-- INTERNET Y SISTEMA -->
+    <div class="category-section">
+        <h2 class="category-title">Internet y Sistema</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg" alt="Firefox"></div>
+                <h3>Firefox</h3>
+                <p>Navegador enfocado en la privacidad y velocidad.</p>
+                <a href="https://mozilla.org" class="btn" target="_blank">Descargar</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/VLC_Media_Player_%E2%80%93_Vlc_app_icon.svg/250px-VLC_Media_Player_%E2%80%93_Vlc_app_icon.svg.png" alt="VLC"></div>
+                <h3>VLC</h3>
+                <p>El reproductor universal de medios. Sin codecs extra.</p>
+                <a href="https://videolan.org" class="btn" target="_blank">Descargar</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/7ziplogo.svg/330px-7ziplogo.svg.png" alt="7-Zip"></div>
+                <h3>7-Zip</h3>
+                <p>Compresión de archivos potente y ligera.</p>
+                <a href="https://7-zip.org" class="btn" target="_blank">Descargar</a>
+            </div>
+			<div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/HandBrake_Icon.png/250px-HandBrake_Icon.png" alt="Handbrake"></div>
+                <h3>Handbrake</h3>
+                <p>Conversor de vídeo profesional a cualquier formato.</p>
+                <a href="https://handbrake.fr" class="btn" target="_blank">Descargar</a>
+            </div>
+			<div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Bleachbit_logo.svg" alt="BleachBit"></div>
+                <h3>BleachBit</h3>
+                <p>Limpia tu sistema y destruye archivos rastreadores.</p>
+                <a href="https://bleachbit.org" class="btn" target="_blank">Descargar</a>
+            </div>
+			<div class="card">
+                <div class="logo-box"><img src="https://www.oo-software.com/oocontent/uploads/tour/oosu10-de/pack-tb.png" alt="O&O ShutUp10++"></div>
+                <h3>O&O ShutUp10++</h3>
+                <p>Desactiva la telemetría y el rastreo de Windows con un clic.</p>
+                <a href="https://oo-software.com" class="btn" target="_blank">Descargar</a>
+            </div>
+
+        </div>
+    </div>
+	
+	<!-- SEGURIDAD Y PRIVACIDAD -->
+    <div class="category-section">
+        <h2 class="category-title">Seguridad y Privacidad</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/KeePassXC.svg" alt="KeePassXC"></div>
+                <h3>KeePassXC</h3>
+                <p>Gestor de contraseñas offline de máxima seguridad.</p>
+                <a href="https://keepassxc.org" class="btn" target="_blank">Descargar</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Signal-Logo-Ultramarine_%282024%29.svg/250px-Signal-Logo-Ultramarine_%282024%29.svg.png" alt="Signal"></div>
+                <h3>Signal</h3>
+                <p>Mensajería instantánea con cifrado de extremo a extremo.</p>
+                <a href="https://signal.org" class="btn" target="_blank">Descargar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- DISEÑO Y CREATIVIDAD -->
+    <div class="category-section">
+        <h2 class="category-title">Diseño y Multimedia</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Calligrakrita-base.svg/960px-Calligrakrita-base.svg.png" alt="Krita"></div>
+                <h3>Krita</h3>
+                <p>Pintura digital e ilustración de nivel profesional.</p>
+                <a href="https://krita.org" class="btn" target="_blank">Descargar</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/The_GIMP_icon_-_v3.0.svg/960px-The_GIMP_icon_-_v3.0.svg.png" alt="GIMP"></div>
+                <h3>GIMP</h3>
+                <p>La alternativa libre a Photoshop para retoque.</p>
+                <a href="https://gimp.org" class="btn" target="_blank">Descargar</a>
+            </div>
+			<div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Inkscape_logo_2.svg" alt="Inkscape"></div>
+                <h3>Inkscape</h3>
+                <p>Diseño vectorial profesional (estilo Illustrator).</p>
+                <a href="https://inkscape.org" class="btn" target="_blank">Descargar</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg" alt="Blender"></div>
+                <h3>Blender</h3>
+                <p>Potencia pura para 3D, efectos y edición de vídeo.</p>
+                <a href="https://blender.org" class="btn" target="_blank">Descargar</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/OBS_Studio_logo.png/250px-OBS_Studio_logo.png" alt="OBS"></div>
+                <h3>OBS Studio</h3>
+                <p>El estándar para grabar pantalla y hacer streaming.</p>
+                <a href="https://obsproject.com" class="btn" target="_blank">Descargar</a>
+            </div>
+			<div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Darktable_icon.svg" alt="Darktable"></div>
+                <h3>Darktable</h3>
+                <p>Revelado RAW y gestión de fotos (estilo Lightroom).</p>
+                <a href="https://darktable.org" class="btn" target="_blank">Descargar</a>
+            </div>
+			<div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Audacity_Logo_nofilter.svg" alt="Audacity"></div>
+                <h3>Audacity</h3>
+                <p>Editor de audio multipista fácil y potente.</p>
+                <a href="https://audacityteam.org" class="btn" target="_blank">Descargar</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Kdenlive-logo.svg" alt="Kdenlive"></div>
+                <h3>Kdenlive</h3>
+                <p>Editor de vídeo no lineal profesional y libre.</p>
+                <a href="https://kdenlive.org" class="btn" target="_blank">Descargar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTIVIDAD Y LECTURA -->
+    <div class="category-section">
+        <h2 class="category-title">Ofimática y Código</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Logo-libreoffice.svg" alt="LibreOffice"></div>
+                <h3>LibreOffice</h3>
+                <p>Suite ofimática completa compatible con Office.</p>
+                <a href="https://libreoffice.org" class="btn" target="_blank">Descargar</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/VSCodium_Logo.png/250px-VSCodium_Logo.png" alt="VSCodium"></div>
+                <h3>VSCodium</h3>
+                <p>El editor de código líder, 100% libre de telemetría.</p>
+                <a href="https://vscodium.com" class="btn" target="_blank">Descargar</a>
+            </div>
+			<div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Notepad_plus_plus.png" alt="Notepad++"></div>
+                <h3>Notepad++</h3>
+                <p>Editor de texto ultrarrápido e indispensable.</p>
+                <a href="https://notepad-plus-plus.org" class="btn" target="_blank">Descargar</a>
+            </div>
+			<div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Calibre_logo.png" alt="Calibre"></div>
+                <h3>Calibre</h3>
+                <p>La herramienta definitiva para gestionar tus e-books.</p>
+                <a href="https://calibre-ebook.com" class="btn" target="_blank">Descargar</a>
+            </div>
+        </div>
+    </div>
+	
+	
+	    <!-- HERRAMIENTAS WEB (CLOUD) -->
+    <div class="category-section">
+        <h2 class="category-title">Herramientas en la Nube (Sin Instalación)</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Photopea_logo.svg" alt="Photopea"></div>
+                <h3>Photopea</h3>
+                <p>El clon de Photoshop más potente en la web. Soporta archivos PSD.</p>
+                <a href="https://www.photopea.com" class="btn" target="_blank">Abrir Web</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://www.vecpea.com/promo/icon512_vp.png" alt="Vectorpea"></div>
+                <h3>Vectorpea</h3>
+                <p>Edición vectorial avanzada (estilo Illustrator) directamente en tu navegador.</p>
+                <a href="https://www.vectorpea.com" class="btn" target="_blank">Abrir Web</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Capcut-icon.png" alt="CapCut Web"></div>
+                <h3>CapCut Web</h3>
+                <p>Editor de vídeo profesional con IA, efectos y transiciones online.</p>
+                <a href="https://capcut.com" class="btn" target="_blank">Abrir Web</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://audiomass.co/about/audiomass_top.jpg" alt="AudioMass"></div>
+                <h3>AudioMass</h3>
+                <p>Editor de audio por ondas completo, rápido y sin registros.</p>
+                <a href="https://audiomass.co" class="btn" target="_blank">Abrir Web</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Polarr_Logo.png/960px-Polarr_Logo.png" alt="Polarr"></div>
+                <h3>Polarr</h3>
+                <p>Retoque fotográfico profesional y filtros estéticos en la nube.</p>
+                <a href="https://polarr.co" class="btn" target="_blank">Abrir Web</a>
+            </div>
+            <div class="card">
+                <div class="logo-box"><img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/64365b87f57489a95e101be4/0x0.png" alt="PDFgear Web"></div>
+                <h3>PDFgear Online</h3>
+                <p>La mejor suite para editar, convertir y firmar PDFs desde el navegador.</p>
+                <a href="https://www.pdfgear.com/online-tools/" class="btn" target="_blank">Abrir Web</a>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+</body>
+</html>
